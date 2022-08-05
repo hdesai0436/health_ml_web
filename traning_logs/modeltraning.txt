@@ -1,0 +1,70 @@
+2022-08-04/19:25:09/		traning start
+2022-08-04/19:25:09/		enter the get_data method of the data getter class
+2022-08-04/19:25:09/		data loaded succesfully
+2022-08-04/19:25:09/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-04/19:25:09/		successful categorized features. exited handle_categorical_feature method from the preprocessing class
+2022-08-04/19:25:09/		enter the remove_columns methods of the preprocessor class
+2022-08-04/19:25:09/		columns removed successful. exited the removel_columns method of the preprocessor class
+2022-08-04/19:25:09/		enter in the separate_label_feature method of the preprocessing class
+2022-08-04/19:25:09/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
+2022-08-04/19:25:09/		enter is_null_present in the method of the preprocessor class
+2022-08-04/19:25:09/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
+2022-08-04/19:25:09/		enter in the replace_null values from prerpocessing class
+2022-08-04/19:25:09/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
+2022-08-04/19:25:09/		enter get_best_model method of the tuner class
+2022-08-04/19:25:09/		enter the get_nest_params_for_random_forest method of the method of model_finder class
+2022-08-04/19:28:44/		random forest best params {'n_estimators': 200, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 40, 'bootstrap': True}.exited from tge get_best_params_for_random method from the best_model_finder class
+2022-08-04/19:28:44/		auc for rf: 0.5 aucuracy score0.9579256360078278
+2022-08-04/19:28:44/		enter save_model method from file_operation
+2022-08-04/19:28:44/		model filerandom_forest saved. exited the save_model of the model_finder class
+2022-08-04/19:28:44/		end of traning
+2022-08-04/19:44:38/		traning start
+2022-08-04/19:44:38/		enter the get_data method of the data getter class
+2022-08-04/19:44:38/		data loaded succesfully
+2022-08-04/19:44:38/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-04/19:44:38/		successful categorized features. exited handle_categorical_feature method from the preprocessing class
+2022-08-04/19:44:38/		enter the remove_columns methods of the preprocessor class
+2022-08-04/19:44:38/		columns removed successful. exited the removel_columns method of the preprocessor class
+2022-08-04/19:44:38/		enter in the separate_label_feature method of the preprocessing class
+2022-08-04/19:44:38/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
+2022-08-04/19:44:38/		enter is_null_present in the method of the preprocessor class
+2022-08-04/19:44:38/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
+2022-08-04/19:44:38/		enter in the replace_null values from prerpocessing class
+2022-08-04/19:44:38/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
+2022-08-04/19:44:38/		enter get_best_model method of the tuner class
+2022-08-04/19:44:38/		enter the get_nest_params_for_random_forest method of the method of model_finder class
+2022-08-04/19:52:11/		traning start
+2022-08-04/19:52:11/		enter the get_data method of the data getter class
+2022-08-04/19:52:11/		data loaded succesfully
+2022-08-04/19:52:11/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-04/19:52:11/		successful categorized features. exited handle_categorical_feature method from the preprocessing class
+2022-08-04/19:52:11/		enter the remove_columns methods of the preprocessor class
+2022-08-04/19:52:11/		columns removed successful. exited the removel_columns method of the preprocessor class
+2022-08-04/19:52:11/		enter in the separate_label_feature method of the preprocessing class
+2022-08-04/19:52:11/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
+2022-08-04/19:52:11/		enter is_null_present in the method of the preprocessor class
+2022-08-04/19:52:11/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
+2022-08-04/19:52:11/		enter in the replace_null values from prerpocessing class
+2022-08-04/19:52:12/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
+2022-08-04/19:52:12/		enter get_best_model method of the tuner class
+2022-08-04/19:52:12/		enter the get_nest_params_for_random_forest method of the method of model_finder class
+2022-08-04/19:52:54/		traning start
+2022-08-04/19:52:54/		enter the get_data method of the data getter class
+2022-08-04/19:52:54/		data loaded succesfully
+2022-08-04/19:52:54/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-04/19:52:54/		successful categorized features. exited handle_categorical_feature method from the preprocessing class
+2022-08-04/19:52:54/		enter the remove_columns methods of the preprocessor class
+2022-08-04/19:52:54/		columns removed successful. exited the removel_columns method of the preprocessor class
+2022-08-04/19:52:54/		enter in the separate_label_feature method of the preprocessing class
+2022-08-04/19:52:54/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
+2022-08-04/19:52:54/		enter is_null_present in the method of the preprocessor class
+2022-08-04/19:52:54/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
+2022-08-04/19:52:54/		enter in the replace_null values from prerpocessing class
+2022-08-04/19:52:54/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
+2022-08-04/19:52:54/		enter get_best_model method of the tuner class
+2022-08-04/19:52:54/		enter the get_nest_params_for_random_forest method of the method of model_finder class
+2022-08-04/19:57:24/		random forest best params {'n_estimators': 1000, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': None, 'bootstrap': False}.exited from tge get_best_params_for_random method from the best_model_finder class
+2022-08-04/19:57:25/		auc for rf: 0.9709915611814346 aucuracy score0.9717223650385605
+2022-08-04/19:57:25/		enter save_model method from file_operation
+2022-08-04/19:57:26/		model filerandom_forest saved. exited the save_model of the model_finder class
+2022-08-04/19:57:26/		end of traning
