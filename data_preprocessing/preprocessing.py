@@ -2,6 +2,8 @@ from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 import numpy as np
 from sklearn.impute import KNNImputer
+from sklearn.preprocessing import OneHotEncoder
+from file_operation.file_methods import file_operation
 
 
 class Preprocessor:
@@ -17,9 +19,9 @@ class Preprocessor:
         self.columns = columns
 
         try:
-            self.useful_data = self.data.drop(labels=self.columns,axis=1)
-            self.logger_object.log(self.file_object,'columns removed successful. exited the removel_columns method of the preprocessor class')
-           
+            self.useful_data = self.data.drop(self.columns,axis=1)
+            self.logger_object.log(self.file_object,'columns removed successful. exited the removel_columns method of the preprocessor class' + str(self.columns) )
+            
             return self.useful_data
         except Exception as e:
             self.logger_object.log(self.file_object,'exception ocuured in the removel_columns method of the proprocessor class :' + str(e))
@@ -63,8 +65,11 @@ class Preprocessor:
 
     def separate_label_feature(self,data,label_column_name):
         self.logger_object.log(self.file_object,'enter in the separate_label_feature method of the preprocessing class')
+        self.data = data
+        self.column_name = label_column_name
+        
         try:
-            self.X = data.drop(columns=label_column_name,axis=1)
+            self.X = data.drop(columns=self.column_name,axis=1)
             self.Y = data[label_column_name]
 
             
@@ -76,18 +81,25 @@ class Preprocessor:
 
     
     
-    def handle_categorical_feature(self,data):
+    def handle_categorical_feature(self,data,column_name):
         self.logger_object.log(self.file_object,'enter in the handle_categorical_feature method in the preprocessing class')
         
         self.data= data
-        
+        self.columns_name = column_name
+        self.ohe = OneHotEncoder(sparse=False,handle_unknown='ignore')
+        file = file_operation(self.file_object,self.logger_object)
 
         try:
-            self.category_col_name = self.data.select_dtypes(include=['object']).columns
-            self.new_data = pd.get_dummies(data=self.data,columns=self.category_col_name)
+           
+            self.array_hot_encode = self.ohe.fit_transform(self.data[[self.columns_name]])
+            self.logger_object.log(self.file_object,'fit_tranfomer happened for columnas ' + self.columns_name)
             
-            self.logger_object.log(self.file_object,'successful categorized features. exited handle_categorical_feature method from the preprocessing class')
-            return self.new_data
+            
+            
+            
+            file.save_model(self.ohe,self.columns_name)
+            self.logger_object.log(self.file_object,'one hot endoing model save')
+            return self.array_hot_encode
         except Exception as e:
             self.logger_object.log(self.file_object,'exception occured in the handle_categorical_feature method in the preproceessing class :' + str(e))
 

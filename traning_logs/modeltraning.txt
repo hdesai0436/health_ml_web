@@ -1,70 +1,383 @@
-2022-08-04/19:25:09/		traning start
-2022-08-04/19:25:09/		enter the get_data method of the data getter class
-2022-08-04/19:25:09/		data loaded succesfully
-2022-08-04/19:25:09/		enter in the handle_categorical_feature method in the preprocessing class
-2022-08-04/19:25:09/		successful categorized features. exited handle_categorical_feature method from the preprocessing class
-2022-08-04/19:25:09/		enter the remove_columns methods of the preprocessor class
-2022-08-04/19:25:09/		columns removed successful. exited the removel_columns method of the preprocessor class
-2022-08-04/19:25:09/		enter in the separate_label_feature method of the preprocessing class
-2022-08-04/19:25:09/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
-2022-08-04/19:25:09/		enter is_null_present in the method of the preprocessor class
-2022-08-04/19:25:09/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
-2022-08-04/19:25:09/		enter in the replace_null values from prerpocessing class
-2022-08-04/19:25:09/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
-2022-08-04/19:25:09/		enter get_best_model method of the tuner class
-2022-08-04/19:25:09/		enter the get_nest_params_for_random_forest method of the method of model_finder class
-2022-08-04/19:28:44/		random forest best params {'n_estimators': 200, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 40, 'bootstrap': True}.exited from tge get_best_params_for_random method from the best_model_finder class
-2022-08-04/19:28:44/		auc for rf: 0.5 aucuracy score0.9579256360078278
-2022-08-04/19:28:44/		enter save_model method from file_operation
-2022-08-04/19:28:44/		model filerandom_forest saved. exited the save_model of the model_finder class
-2022-08-04/19:28:44/		end of traning
-2022-08-04/19:44:38/		traning start
-2022-08-04/19:44:38/		enter the get_data method of the data getter class
-2022-08-04/19:44:38/		data loaded succesfully
-2022-08-04/19:44:38/		enter in the handle_categorical_feature method in the preprocessing class
-2022-08-04/19:44:38/		successful categorized features. exited handle_categorical_feature method from the preprocessing class
-2022-08-04/19:44:38/		enter the remove_columns methods of the preprocessor class
-2022-08-04/19:44:38/		columns removed successful. exited the removel_columns method of the preprocessor class
-2022-08-04/19:44:38/		enter in the separate_label_feature method of the preprocessing class
-2022-08-04/19:44:38/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
-2022-08-04/19:44:38/		enter is_null_present in the method of the preprocessor class
-2022-08-04/19:44:38/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
-2022-08-04/19:44:38/		enter in the replace_null values from prerpocessing class
-2022-08-04/19:44:38/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
-2022-08-04/19:44:38/		enter get_best_model method of the tuner class
-2022-08-04/19:44:38/		enter the get_nest_params_for_random_forest method of the method of model_finder class
-2022-08-04/19:52:11/		traning start
-2022-08-04/19:52:11/		enter the get_data method of the data getter class
-2022-08-04/19:52:11/		data loaded succesfully
-2022-08-04/19:52:11/		enter in the handle_categorical_feature method in the preprocessing class
-2022-08-04/19:52:11/		successful categorized features. exited handle_categorical_feature method from the preprocessing class
-2022-08-04/19:52:11/		enter the remove_columns methods of the preprocessor class
-2022-08-04/19:52:11/		columns removed successful. exited the removel_columns method of the preprocessor class
-2022-08-04/19:52:11/		enter in the separate_label_feature method of the preprocessing class
-2022-08-04/19:52:11/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
-2022-08-04/19:52:11/		enter is_null_present in the method of the preprocessor class
-2022-08-04/19:52:11/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
-2022-08-04/19:52:11/		enter in the replace_null values from prerpocessing class
-2022-08-04/19:52:12/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
-2022-08-04/19:52:12/		enter get_best_model method of the tuner class
-2022-08-04/19:52:12/		enter the get_nest_params_for_random_forest method of the method of model_finder class
-2022-08-04/19:52:54/		traning start
-2022-08-04/19:52:54/		enter the get_data method of the data getter class
-2022-08-04/19:52:54/		data loaded succesfully
-2022-08-04/19:52:54/		enter in the handle_categorical_feature method in the preprocessing class
-2022-08-04/19:52:54/		successful categorized features. exited handle_categorical_feature method from the preprocessing class
-2022-08-04/19:52:54/		enter the remove_columns methods of the preprocessor class
-2022-08-04/19:52:54/		columns removed successful. exited the removel_columns method of the preprocessor class
-2022-08-04/19:52:54/		enter in the separate_label_feature method of the preprocessing class
-2022-08-04/19:52:54/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
-2022-08-04/19:52:54/		enter is_null_present in the method of the preprocessor class
-2022-08-04/19:52:54/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
-2022-08-04/19:52:54/		enter in the replace_null values from prerpocessing class
-2022-08-04/19:52:54/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
-2022-08-04/19:52:54/		enter get_best_model method of the tuner class
-2022-08-04/19:52:54/		enter the get_nest_params_for_random_forest method of the method of model_finder class
-2022-08-04/19:57:24/		random forest best params {'n_estimators': 1000, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': None, 'bootstrap': False}.exited from tge get_best_params_for_random method from the best_model_finder class
-2022-08-04/19:57:25/		auc for rf: 0.9709915611814346 aucuracy score0.9717223650385605
-2022-08-04/19:57:25/		enter save_model method from file_operation
-2022-08-04/19:57:26/		model filerandom_forest saved. exited the save_model of the model_finder class
-2022-08-04/19:57:26/		end of traning
+2022-08-07/22:59:20/		traning start
+2022-08-07/22:59:20/		enter the get_data method of the data getter class
+2022-08-07/22:59:20/		data loaded succesfully
+2022-08-07/22:59:20/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/22:59:20/		fit_tranfomer happened for columnas gender
+2022-08-07/22:59:20/		enter save_model method from file_operation
+2022-08-07/22:59:20/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/22:59:20/		one hot endoing model save
+2022-08-07/22:59:20/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/22:59:21/		fit_tranfomer happened for columnas ever_married
+2022-08-07/22:59:21/		enter save_model method from file_operation
+2022-08-07/22:59:21/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/22:59:21/		one hot endoing model save
+2022-08-07/22:59:21/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/22:59:21/		fit_tranfomer happened for columnas work_type
+2022-08-07/22:59:21/		enter save_model method from file_operation
+2022-08-07/22:59:21/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/22:59:21/		one hot endoing model save
+2022-08-07/22:59:21/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/22:59:21/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/22:59:21/		enter save_model method from file_operation
+2022-08-07/22:59:21/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/22:59:21/		one hot endoing model save
+2022-08-07/22:59:21/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/22:59:21/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/22:59:21/		enter save_model method from file_operation
+2022-08-07/22:59:21/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/22:59:21/		one hot endoing model save
+2022-08-07/22:59:21/		enter the remove_columns methods of the preprocessor class
+2022-08-07/22:59:21/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-07/22:59:21/		Unsuccessful End of Training
+2022-08-07/23:00:17/		traning start
+2022-08-07/23:00:17/		enter the get_data method of the data getter class
+2022-08-07/23:00:17/		data loaded succesfully
+2022-08-07/23:00:17/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:00:17/		fit_tranfomer happened for columnas gender
+2022-08-07/23:00:17/		enter save_model method from file_operation
+2022-08-07/23:00:17/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/23:00:17/		one hot endoing model save
+2022-08-07/23:00:17/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:00:17/		fit_tranfomer happened for columnas ever_married
+2022-08-07/23:00:17/		enter save_model method from file_operation
+2022-08-07/23:00:17/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/23:00:17/		one hot endoing model save
+2022-08-07/23:00:17/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:00:17/		fit_tranfomer happened for columnas work_type
+2022-08-07/23:00:17/		enter save_model method from file_operation
+2022-08-07/23:00:17/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/23:00:17/		one hot endoing model save
+2022-08-07/23:00:17/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:00:17/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/23:00:17/		enter save_model method from file_operation
+2022-08-07/23:00:17/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/23:00:17/		one hot endoing model save
+2022-08-07/23:00:17/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:00:17/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/23:00:17/		enter save_model method from file_operation
+2022-08-07/23:00:17/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/23:00:17/		one hot endoing model save
+2022-08-07/23:00:17/		enter the remove_columns methods of the preprocessor class
+2022-08-07/23:00:17/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-07/23:00:17/		enter in the separate_label_feature method of the preprocessing class
+2022-08-07/23:00:17/		exception ocuured in the separate_label_feature method in the preprocesisng class: 'numpy.ndarray' object has no attribute 'drop'
+2022-08-07/23:00:17/		Unsuccessful End of Training
+2022-08-07/23:04:49/		traning start
+2022-08-07/23:04:49/		enter the get_data method of the data getter class
+2022-08-07/23:04:49/		data loaded succesfully
+2022-08-07/23:04:49/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:04:49/		fit_tranfomer happened for columnas gender
+2022-08-07/23:04:49/		enter save_model method from file_operation
+2022-08-07/23:04:49/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/23:04:49/		one hot endoing model save
+2022-08-07/23:04:49/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:04:49/		fit_tranfomer happened for columnas ever_married
+2022-08-07/23:04:49/		enter save_model method from file_operation
+2022-08-07/23:04:49/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/23:04:49/		one hot endoing model save
+2022-08-07/23:04:49/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:04:49/		fit_tranfomer happened for columnas work_type
+2022-08-07/23:04:49/		enter save_model method from file_operation
+2022-08-07/23:04:49/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/23:04:49/		one hot endoing model save
+2022-08-07/23:04:49/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:04:49/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/23:04:49/		enter save_model method from file_operation
+2022-08-07/23:04:49/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/23:04:49/		one hot endoing model save
+2022-08-07/23:04:49/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:04:49/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/23:04:49/		enter save_model method from file_operation
+2022-08-07/23:04:49/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/23:04:49/		one hot endoing model save
+2022-08-07/23:04:49/		enter the remove_columns methods of the preprocessor class
+2022-08-07/23:04:49/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-07/23:04:49/		enter in the separate_label_feature method of the preprocessing class
+2022-08-07/23:04:49/		exception ocuured in the separate_label_feature method in the preprocesisng class: 'numpy.ndarray' object has no attribute 'drop'
+2022-08-07/23:04:49/		Unsuccessful End of Training
+2022-08-07/23:05:36/		traning start
+2022-08-07/23:05:36/		enter the get_data method of the data getter class
+2022-08-07/23:05:36/		data loaded succesfully
+2022-08-07/23:05:36/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:05:36/		fit_tranfomer happened for columnas gender
+2022-08-07/23:05:36/		enter save_model method from file_operation
+2022-08-07/23:05:36/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/23:05:36/		one hot endoing model save
+2022-08-07/23:05:36/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:05:36/		fit_tranfomer happened for columnas ever_married
+2022-08-07/23:05:36/		enter save_model method from file_operation
+2022-08-07/23:05:36/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/23:05:36/		one hot endoing model save
+2022-08-07/23:05:36/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:05:36/		fit_tranfomer happened for columnas work_type
+2022-08-07/23:05:36/		enter save_model method from file_operation
+2022-08-07/23:05:36/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/23:05:36/		one hot endoing model save
+2022-08-07/23:05:36/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:05:36/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/23:05:36/		enter save_model method from file_operation
+2022-08-07/23:05:36/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/23:05:36/		one hot endoing model save
+2022-08-07/23:05:36/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:05:36/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/23:05:36/		enter save_model method from file_operation
+2022-08-07/23:05:36/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/23:05:36/		one hot endoing model save
+2022-08-07/23:05:36/		enter the remove_columns methods of the preprocessor class
+2022-08-07/23:05:36/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-07/23:05:36/		Unsuccessful End of Training
+2022-08-07/23:13:41/		traning start
+2022-08-07/23:13:41/		enter the get_data method of the data getter class
+2022-08-07/23:13:41/		data loaded succesfully
+2022-08-07/23:13:41/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:13:41/		fit_tranfomer happened for columnas gender
+2022-08-07/23:13:41/		enter save_model method from file_operation
+2022-08-07/23:13:41/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/23:13:41/		one hot endoing model save
+2022-08-07/23:13:41/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:13:41/		fit_tranfomer happened for columnas ever_married
+2022-08-07/23:13:41/		enter save_model method from file_operation
+2022-08-07/23:13:41/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/23:13:41/		one hot endoing model save
+2022-08-07/23:13:41/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:13:41/		fit_tranfomer happened for columnas work_type
+2022-08-07/23:13:41/		enter save_model method from file_operation
+2022-08-07/23:13:41/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/23:13:41/		one hot endoing model save
+2022-08-07/23:13:41/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:13:41/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/23:13:41/		enter save_model method from file_operation
+2022-08-07/23:13:41/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/23:13:41/		one hot endoing model save
+2022-08-07/23:13:41/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:13:41/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/23:13:41/		enter save_model method from file_operation
+2022-08-07/23:13:41/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/23:13:41/		one hot endoing model save
+2022-08-07/23:13:41/		enter the remove_columns methods of the preprocessor class
+2022-08-07/23:13:41/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-07/23:13:42/		enter in the separate_label_feature method of the preprocessing class
+2022-08-07/23:13:42/		exception ocuured in the separate_label_feature method in the preprocesisng class: 'numpy.ndarray' object has no attribute 'drop'
+2022-08-07/23:13:42/		Unsuccessful End of Training
+2022-08-07/23:15:03/		traning start
+2022-08-07/23:15:03/		enter the get_data method of the data getter class
+2022-08-07/23:15:04/		data loaded succesfully
+2022-08-07/23:15:04/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:15:04/		fit_tranfomer happened for columnas gender
+2022-08-07/23:15:04/		enter save_model method from file_operation
+2022-08-07/23:15:04/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/23:15:04/		one hot endoing model save
+2022-08-07/23:15:04/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:15:04/		fit_tranfomer happened for columnas ever_married
+2022-08-07/23:15:04/		enter save_model method from file_operation
+2022-08-07/23:15:04/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/23:15:04/		one hot endoing model save
+2022-08-07/23:15:04/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:15:04/		fit_tranfomer happened for columnas work_type
+2022-08-07/23:15:04/		enter save_model method from file_operation
+2022-08-07/23:15:04/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/23:15:04/		one hot endoing model save
+2022-08-07/23:15:04/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:15:04/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/23:15:04/		enter save_model method from file_operation
+2022-08-07/23:15:04/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/23:15:04/		one hot endoing model save
+2022-08-07/23:15:04/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:15:04/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/23:15:04/		enter save_model method from file_operation
+2022-08-07/23:15:04/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/23:15:04/		one hot endoing model save
+2022-08-07/23:15:04/		enter the remove_columns methods of the preprocessor class
+2022-08-07/23:15:04/		exception ocuured in the removel_columns method of the proprocessor class :"[('id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status')] not found in axis"
+2022-08-07/23:15:04/		Unsuccessful End of Training
+2022-08-07/23:16:03/		traning start
+2022-08-07/23:16:03/		enter the get_data method of the data getter class
+2022-08-07/23:16:03/		data loaded succesfully
+2022-08-07/23:16:03/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:16:03/		fit_tranfomer happened for columnas gender
+2022-08-07/23:16:03/		enter save_model method from file_operation
+2022-08-07/23:16:03/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/23:16:03/		one hot endoing model save
+2022-08-07/23:16:03/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:16:03/		fit_tranfomer happened for columnas ever_married
+2022-08-07/23:16:03/		enter save_model method from file_operation
+2022-08-07/23:16:03/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/23:16:03/		one hot endoing model save
+2022-08-07/23:16:03/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:16:03/		fit_tranfomer happened for columnas work_type
+2022-08-07/23:16:03/		enter save_model method from file_operation
+2022-08-07/23:16:03/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/23:16:03/		one hot endoing model save
+2022-08-07/23:16:03/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:16:03/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/23:16:03/		enter save_model method from file_operation
+2022-08-07/23:16:03/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/23:16:03/		one hot endoing model save
+2022-08-07/23:16:03/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:16:03/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/23:16:03/		enter save_model method from file_operation
+2022-08-07/23:16:03/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/23:16:03/		one hot endoing model save
+2022-08-07/23:16:03/		enter the remove_columns methods of the preprocessor class
+2022-08-07/23:16:03/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-07/23:16:03/		enter in the separate_label_feature method of the preprocessing class
+2022-08-07/23:16:03/		exception ocuured in the separate_label_feature method in the preprocesisng class: 'numpy.ndarray' object has no attribute 'drop'
+2022-08-07/23:16:03/		Unsuccessful End of Training
+2022-08-07/23:20:10/		traning start
+2022-08-07/23:20:10/		enter the get_data method of the data getter class
+2022-08-07/23:20:10/		data loaded succesfully
+2022-08-07/23:20:10/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:20:10/		fit_tranfomer happened for columnas gender
+2022-08-07/23:20:10/		enter save_model method from file_operation
+2022-08-07/23:20:10/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/23:20:10/		one hot endoing model save
+2022-08-07/23:20:10/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:20:10/		fit_tranfomer happened for columnas ever_married
+2022-08-07/23:20:10/		enter save_model method from file_operation
+2022-08-07/23:20:10/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/23:20:10/		one hot endoing model save
+2022-08-07/23:20:10/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:20:10/		fit_tranfomer happened for columnas work_type
+2022-08-07/23:20:10/		enter save_model method from file_operation
+2022-08-07/23:20:10/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/23:20:10/		one hot endoing model save
+2022-08-07/23:20:10/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:20:10/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/23:20:10/		enter save_model method from file_operation
+2022-08-07/23:20:10/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/23:20:10/		one hot endoing model save
+2022-08-07/23:20:10/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:20:10/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/23:20:10/		enter save_model method from file_operation
+2022-08-07/23:20:10/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/23:20:10/		one hot endoing model save
+2022-08-07/23:20:10/		enter the remove_columns methods of the preprocessor class
+2022-08-07/23:20:10/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-07/23:20:11/		enter in the separate_label_feature method of the preprocessing class
+2022-08-07/23:20:11/		exception ocuured in the separate_label_feature method in the preprocesisng class: "['stroke'] not found in axis"
+2022-08-07/23:20:11/		Unsuccessful End of Training
+2022-08-07/23:26:46/		traning start
+2022-08-07/23:26:46/		enter the get_data method of the data getter class
+2022-08-07/23:26:46/		data loaded succesfully
+2022-08-07/23:26:46/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:26:46/		fit_tranfomer happened for columnas gender
+2022-08-07/23:26:46/		enter save_model method from file_operation
+2022-08-07/23:26:46/		model filegender saved. exited the save_model of the model_finder class
+2022-08-07/23:26:46/		one hot endoing model save
+2022-08-07/23:26:46/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:26:46/		fit_tranfomer happened for columnas ever_married
+2022-08-07/23:26:46/		enter save_model method from file_operation
+2022-08-07/23:26:46/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-07/23:26:46/		one hot endoing model save
+2022-08-07/23:26:46/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:26:46/		fit_tranfomer happened for columnas work_type
+2022-08-07/23:26:46/		enter save_model method from file_operation
+2022-08-07/23:26:46/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-07/23:26:46/		one hot endoing model save
+2022-08-07/23:26:46/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:26:46/		fit_tranfomer happened for columnas Residence_type
+2022-08-07/23:26:46/		enter save_model method from file_operation
+2022-08-07/23:26:46/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-07/23:26:46/		one hot endoing model save
+2022-08-07/23:26:46/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-07/23:26:46/		fit_tranfomer happened for columnas smoking_status
+2022-08-07/23:26:46/		enter save_model method from file_operation
+2022-08-07/23:26:46/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-07/23:26:46/		one hot endoing model save
+2022-08-07/23:26:46/		enter the remove_columns methods of the preprocessor class
+2022-08-07/23:26:46/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-07/23:26:46/		enter in the separate_label_feature method of the preprocessing class
+2022-08-07/23:26:46/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
+2022-08-07/23:26:46/		enter is_null_present in the method of the preprocessor class
+2022-08-07/23:26:46/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
+2022-08-07/23:26:46/		enter in the replace_null values from prerpocessing class
+2022-08-07/23:26:46/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
+2022-08-07/23:26:47/		enter get_best_model method of the tuner class
+2022-08-07/23:26:47/		enter the get_nest_params_for_random_forest method of the method of model_finder class
+2022-08-07/23:31:20/		random forest best params {'n_estimators': 1000, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': None, 'bootstrap': False}.exited from tge get_best_params_for_random method from the best_model_finder class
+2022-08-07/23:31:21/		auc for rf: 0.9736286919831223 aucuracy score0.974293059125964
+2022-08-07/23:31:21/		enter save_model method from file_operation
+2022-08-07/23:31:21/		model filerandom_forest saved. exited the save_model of the model_finder class
+2022-08-07/23:31:21/		end of traning
+2022-08-08/10:16:54/		traning start
+2022-08-08/10:16:54/		enter the get_data method of the data getter class
+2022-08-08/10:16:54/		data loaded succesfully
+2022-08-08/10:16:54/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:16:54/		fit_tranfomer happened for columnas gender
+2022-08-08/10:16:54/		enter save_model method from file_operation
+2022-08-08/10:16:54/		model filegender saved. exited the save_model of the model_finder class
+2022-08-08/10:16:54/		one hot endoing model save
+2022-08-08/10:16:54/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:16:54/		fit_tranfomer happened for columnas ever_married
+2022-08-08/10:16:54/		enter save_model method from file_operation
+2022-08-08/10:16:54/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-08/10:16:54/		one hot endoing model save
+2022-08-08/10:16:54/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:16:54/		fit_tranfomer happened for columnas work_type
+2022-08-08/10:16:54/		enter save_model method from file_operation
+2022-08-08/10:16:54/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-08/10:16:54/		one hot endoing model save
+2022-08-08/10:16:54/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:16:54/		fit_tranfomer happened for columnas Residence_type
+2022-08-08/10:16:54/		enter save_model method from file_operation
+2022-08-08/10:16:54/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-08/10:16:54/		one hot endoing model save
+2022-08-08/10:16:54/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:16:54/		fit_tranfomer happened for columnas smoking_status
+2022-08-08/10:16:54/		enter save_model method from file_operation
+2022-08-08/10:16:54/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-08/10:16:54/		one hot endoing model save
+2022-08-08/10:16:54/		enter the remove_columns methods of the preprocessor class
+2022-08-08/10:16:54/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-08/10:16:54/		enter in the separate_label_feature method of the preprocessing class
+2022-08-08/10:16:54/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
+2022-08-08/10:16:54/		enter is_null_present in the method of the preprocessor class
+2022-08-08/10:16:54/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
+2022-08-08/10:16:54/		enter in the replace_null values from prerpocessing class
+2022-08-08/10:16:55/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
+2022-08-08/10:16:55/		Unsuccessful End of Training
+2022-08-08/10:17:24/		traning start
+2022-08-08/10:17:24/		enter the get_data method of the data getter class
+2022-08-08/10:17:24/		data loaded succesfully
+2022-08-08/10:17:24/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:17:24/		fit_tranfomer happened for columnas gender
+2022-08-08/10:17:24/		enter save_model method from file_operation
+2022-08-08/10:17:24/		model filegender saved. exited the save_model of the model_finder class
+2022-08-08/10:17:24/		one hot endoing model save
+2022-08-08/10:17:24/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:17:24/		fit_tranfomer happened for columnas ever_married
+2022-08-08/10:17:24/		enter save_model method from file_operation
+2022-08-08/10:17:24/		model fileever_married saved. exited the save_model of the model_finder class
+2022-08-08/10:17:24/		one hot endoing model save
+2022-08-08/10:17:24/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:17:24/		fit_tranfomer happened for columnas work_type
+2022-08-08/10:17:24/		enter save_model method from file_operation
+2022-08-08/10:17:24/		model filework_type saved. exited the save_model of the model_finder class
+2022-08-08/10:17:24/		one hot endoing model save
+2022-08-08/10:17:24/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:17:24/		fit_tranfomer happened for columnas Residence_type
+2022-08-08/10:17:24/		enter save_model method from file_operation
+2022-08-08/10:17:24/		model fileResidence_type saved. exited the save_model of the model_finder class
+2022-08-08/10:17:24/		one hot endoing model save
+2022-08-08/10:17:24/		enter in the handle_categorical_feature method in the preprocessing class
+2022-08-08/10:17:24/		fit_tranfomer happened for columnas smoking_status
+2022-08-08/10:17:24/		enter save_model method from file_operation
+2022-08-08/10:17:24/		model filesmoking_status saved. exited the save_model of the model_finder class
+2022-08-08/10:17:24/		one hot endoing model save
+2022-08-08/10:17:24/		enter the remove_columns methods of the preprocessor class
+2022-08-08/10:17:24/		columns removed successful. exited the removel_columns method of the preprocessor class['id', 'gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
+2022-08-08/10:17:24/		enter in the separate_label_feature method of the preprocessing class
+2022-08-08/10:17:24/		label separation successful.Exited from the separate_label_feature method  from the preprocessing class
+2022-08-08/10:17:24/		enter is_null_present in the method of the preprocessor class
+2022-08-08/10:17:24/		findinf missing values is a success. data written to null values in the files. exited is_null_present method in the preprocessing
+2022-08-08/10:17:24/		enter in the replace_null values from prerpocessing class
+2022-08-08/10:17:24/		replave missing value from the dataset.exited from the replace_null_values from the preprocesisng class
+2022-08-08/10:17:24/		enter save_model method from file_operation
+2022-08-08/10:17:24/		model filestand_scaler saved. exited the save_model of the model_finder class
+2022-08-08/10:17:24/		enter get_best_model method of the tuner class
+2022-08-08/10:17:24/		enter the get_nest_params_for_random_forest method of the method of model_finder class
+2022-08-08/10:21:24/		random forest best params {'n_estimators': 200, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 40, 'bootstrap': True}.exited from tge get_best_params_for_random method from the best_model_finder class
+2022-08-08/10:21:24/		auc for rf: 0.9736805352767162 aucuracy score0.974293059125964
+2022-08-08/10:21:24/		enter save_model method from file_operation
+2022-08-08/10:21:24/		model filerandom_forest saved. exited the save_model of the model_finder class
+2022-08-08/10:21:24/		end of traning

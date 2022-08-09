@@ -1,6 +1,9 @@
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV,RandomizedSearchCV
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder,StandardScaler
+from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score,classification_report,roc_auc_score
 
 class model_finder:
@@ -58,8 +61,13 @@ class model_finder:
                 self.accu = accuracy_score(y_test,self.predication_random_forest)
                 self.random_forest_score = roc_auc_score(y_test,self.predication_random_forest)
                 self.logger_object.log(self.file_object,'auc for rf: '+ str(self.random_forest_score) + ' aucuracy score' + str(self.accu))
+
             return self.clf
         except Exception as e:
             self.logger_object.log(self.file_object,'exception occured in get_best_model from the tuner class')
             raise(e)
+
+    
+            
+
 
