@@ -3,8 +3,12 @@ from flask import Flask,jsonify,redirect, render_template,request
 import json
 import numpy as np
 import pandas as pd
-from file_operation.file_methods import file_operation
 from predictfrommodel import predication
+from application_logs.loger import app_loger
+
+loger = app_loger()
+
+file_log = open('webpage_logs/api.txt','a+')
 
 
 pred_model = predication()
@@ -15,27 +19,19 @@ app = Flask(__name__)
 def stroke_pred():
     content_type = request.headers.get('Content-Type')
     if (content_type == 'application/json'):
+        loger.log(file_log,'post request received')
         d = request.get_json()
-        gender = d['gender']
-        age = d['age']
-        hypertension = d['hypertension']
-        heart_disease = d['heart_disease']
-        ever_married = d['ever_married']
-        work_type=d['work_type']
-        Residence_type=d['Residence_type']
-        avg_glucose_level=d['avg_glucose_level']
-        bmi=d['bmi']
-        smoking_status = d['smoking_status']
         test_data= np.array(list(d.values())).reshape(1,-1)
         pred = pred_model.predict(test_data)
-
+        loger.log(file_log,'predication happen from flask web page api')
         if pred == 1:
-            return jsonify('stroke'),200
+            return jsonify('Stroke'),200
         else:
-            return jsonify('no stroke'),200
-      
+            return jsonify('No stroke'),200
+        
        
     else:
+        loger.log(file_log,'something wrong happned error')
         return jsonify('something went wrong'),404
     
     
