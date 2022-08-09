@@ -33,6 +33,6 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ secrets. DOCKER_HUB_USERNAME }}/sroke_predication:latest
-          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/sroke_predication:buildcache
-          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/sroke_predication:buildcache,mode=max
+          tags: ${{ secrets. DOCKER_HUB_USERNAME }}/heart_strock:latest
+          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/heart_strock:buildcache
+          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/heart_strock:buildcache,mode=max
