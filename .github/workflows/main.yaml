@@ -37,6 +37,8 @@ jobs:
           cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/heart_strock:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/heart_strock:buildcache,mode=max
   deploy:
+    runs-on: ubuntu-latest
+    needs: build
     steps:
       -
         name: Login Docker Hub
