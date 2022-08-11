@@ -36,3 +36,30 @@ jobs:
           tags: ${{ secrets. DOCKER_HUB_USERNAME }}/heart_strock:latest
           cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/heart_strock:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/heart_strock:buildcache,mode=max
+  deploy:
+    setps:
+      -
+        name: Login Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+      - 
+        name: Logging in to the registry
+        run: docker login --username= ${{ secrets.HEROKY_USERNAME }} --password=${{ secrets.HEROKU_API_KEY }} registry.heroku.com
+
+      -
+        name: Pull docker image from docker hub
+        run: docker pull hdesai1994/heart_strock:latest
+      -
+        name: Pushing an existing image
+        run: |
+          docker tag hdesai1994/heart_strock:latest registry.heroku.com/${{ secrets.HEROKU_APP}}/web
+          docker push registry.heroku.com/${{ secrets.HEROKU_APP}}/web
+      -
+        name: Releasing an image
+        run: heroku container:release web -a ${{ secrets.HEROKU_APP}}
+
+
+
+          
